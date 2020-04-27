@@ -1,0 +1,30 @@
+create table comp_job_master
+(comp_master_id integer,
+comp_job_id varchar(50),
+comp_job_industry varchar(100),
+comp_job_prim_skill varchar(500),
+comp_job_alt_skill varchar(500),
+comp_job_location varchar(50),
+comp_job_type varchar(10),
+com_emp_type varchar(25));
+
+insert into comp_job_master values (101,'236','Construction','Construction laborers','Plumbers, pipefitters, and steamfitters','Gurgaon','Full ','Permanent');
+insert into comp_job_master values (202,'337','Construction','Construction laborers','Plumbers, pipefitters, and steamfitters','Bangalore','Part','Contract');
+insert into comp_job_master values (303,'438','Construction','Construction laborers','','Kochi','Part','Contract');
+insert into comp_job_master values (404,'539','Construction','Highway maintenance workers','','Pune','Full ','Contract');
+insert into comp_job_master values (505,'640','Construction','Highway maintenance workers','','Mumbai','Full ','Contract');
+insert into comp_job_master values (606,'741','Construction','Highway maintenance workers','','Chennai','Part','Permanent');
+insert into comp_job_master values (707,'842','Manufacturing','Food processing workers','Food cooking machine operators and tenders','Coimbatore','Part','Contract');
+insert into comp_job_master values (808,'943','Manufacturing','Food processing workers','Food cooking machine operators and tenders','Hyderabad','Full ','Contract');
+insert into comp_job_master values (909,'1044','Manufacturing','Food processing workers','Food batchmakers','Kolkata','Full ','Permanent');
+insert into comp_job_master values (1010,'1145','Manufacturing','Sewing machine operators','','Gurgaon','Part','Permanent');
+insert into comp_job_master values (1111,'1246','Manufacturing','Sewing machine operators','','Bangalore','Full ','Contract');
+insert into comp_job_master values (1212,'1347','Manufacturing','Sewing machine operators','','Kochi','Full ','Contract');
+insert into comp_job_master values (1313,'1448','Manufacturing','Cabinetmakers and bench carpenters','','Pune','Full ','Contract');
+insert into comp_job_master values (1414,'1549','Manufacturing','Cabinetmakers and bench carpenters','','Mumbai','Part','Contract');
+insert into comp_job_master values (1515,'1650','Manufacturing','Cabinetmakers and bench carpenters','','Chennai','Part','Contract');
+insert into comp_job_master values (1616,'1751','Automotive repair and maintenance ','Automotive service technicians and mechanics','','Coimbatore','Part','Contract');
+insert into comp_job_master values (1717,'1852','Automotive repair and maintenance ','Automotive service technicians and mechanics','','Hyderabad','Full ','Contract');
+insert into comp_job_master values (1818,'1953','Automotive repair and maintenance ','Automotive service technicians and mechanics','','Kolkata','Part','Permanent');
+insert into comp_job_master values (1919,'2054','Manufacturing','Other machine tool setters, operators, and tenders, metal and plastic','','Gurgaon','Full ','Contract');
+insert into comp_job_master values (2020,'2155','Manufacturing','Other machine tool setters, operators, and tenders, metal and plastic','','Bangalore','Full ','Contract');

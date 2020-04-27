@@ -1,0 +1,4 @@
+create table user_login(
+cand_id integer ,
+username varchar,
+password varchar);

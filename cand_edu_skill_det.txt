@@ -1,0 +1,29 @@
+create table cand_edu_skill_det
+(cand_master_id integer,
+cand_edu_qual varchar2(100),
+cand_prim_skill_desc varchar2(500),
+cand_alt_skill_desc varchar2(500),
+cand_skill_industry varchar2(500),
+cand_exp_in_mths decimal (5,0),
+cand_prof_job_loc varchar2(100));
+
+insert into cand_edu_skill_det values (1,'Technical Diploma','Plumbers, pipefitters, and steamfitters','Painters and paperhangers','Construction',60,'Gurgaon');
+insert into cand_edu_skill_det values (2,'Technical Diploma','Plumbers, pipefitters, and steamfitters','Construction laborers','Construction',62,'Bangalore');
+insert into cand_edu_skill_det values (3,'Technical Diploma','Plumbers, pipefitters, and steamfitters','Construction equipment operators','Construction',59,'Kochi');
+insert into cand_edu_skill_det values (4,'Technical Diploma','Plumbers, pipefitters, and steamfitters','Construction laborers','Construction',63,'Pune');
+insert into cand_edu_skill_det values (5,'Technical Diploma','Plumbers, pipefitters, and steamfitters','Construction laborers','Construction',58,'Mumbai');
+insert into cand_edu_skill_det values (6,'Technical Diploma','Plumbers, pipefitters, and steamfitters','Painters and paperhangers','Construction',64,'Chennai');
+insert into cand_edu_skill_det values (7,'Technical Diploma','Plumbers, pipefitters, and steamfitters','Sheet metal workers','Construction',57,'Coimbatore');
+insert into cand_edu_skill_det values (8,'Technical Diploma','Plumbers, pipefitters, and steamfitters','Sheet metal workers','Construction',65,'Hyderabad');
+insert into cand_edu_skill_det values (9,'Technical Diploma','Plumbers, pipefitters, and steamfitters','','Construction',56,'Kolkata');
+insert into cand_edu_skill_det values (10,'Technical Diploma','Plumbers, pipefitters, and steamfitters','','Construction',66,'Gurgaon');
+insert into cand_edu_skill_det values (11,'Technical Diploma','Plumbers, pipefitters, and steamfitters','Small engine mechanics','Automotive repair and maintenance',55,'Bangalore');
+insert into cand_edu_skill_det values (12,'Technical Diploma','Plumbers, pipefitters, and steamfitters','Small engine mechanics','Automotive repair and maintenance',67,'Kochi');
+insert into cand_edu_skill_det values (13,'Technical Diploma','Plumbers, pipefitters, and steamfitters','Food cooking machine operators and tenders','Not specified food industries',54,'Pune');
+insert into cand_edu_skill_det values (14,'Technical Diploma','Plumbers, pipefitters, and steamfitters','Food cooking machine operators and tenders','Not specified food industries',68,'Mumbai');
+insert into cand_edu_skill_det values (15,'Technical Diploma','Plumbers, pipefitters, and steamfitters','Other machine tool setters, operators, and tenders, metal and plastic','Iron and steel mills and steel product manufacturing',53,'Chennai');
+insert into cand_edu_skill_det values (16,'Technical Diploma','Plumbers, pipefitters, and steamfitters','Other machine tool setters, operators, and tenders, metal and plastic','Iron and steel mills and steel product manufacturing',69,'Coimbatore');
+insert into cand_edu_skill_det values (17,'Technical Diploma','Plumbers, pipefitters, and steamfitters','Tailors, dressmakers, and sewers','Cut and sew, and apparel accessories and other apparel manufacturing',52,'Hyderabad');
+insert into cand_edu_skill_det values (18,'Technical Diploma','Plumbers, pipefitters, and steamfitters','Tailors, dressmakers, and sewers','Cut and sew, and apparel accessories and other apparel manufacturing',70,'Kolkata');
+insert into cand_edu_skill_det values (19,'Technical Diploma','Plumbers, pipefitters, and steamfitters','Furniture finishers','Furniture and related product manufacturing',51,'Gurgaon');
+insert into cand_edu_skill_det values (20,'Technical Diploma','Plumbers, pipefitters, and steamfitters','Furniture finishers','Furniture and related product manufacturing',71,'Bangalore');

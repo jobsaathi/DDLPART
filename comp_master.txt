@@ -1,0 +1,32 @@
+create table comp_master
+(comp_master_id integer,
+comp_name varchar(100),
+comp_reg_num varchar(25),
+comp_incorp_dt date,
+comp_addr_line1 varchar(50),
+comp_addr_line2 varchar(50),
+comp_city_nam varchar(50),
+comp_stat_nam varchar(50),
+comp_ctry_nam varchar(50),
+comp_post_cd decimal(6,0));
+
+insert into comp_master values (101,'Udit Associates','8641369313','7/6/1993','Agon  SEZ','Agon ','Gurgaon','Haryana','India',122104);
+insert into comp_master values (202,'Urvashi Enterprises','8641403469','6/5/1992','Agram  STP','Agram ','Bangalore','Karnataka','India',560007);
+insert into comp_master values (303,'Vaibhav Limited ','8641437229','5/5/1991','Alappuzha Bazar  Industrial Area','Alappuzha Bazar ','Kochi','Kerala','India',688012);
+insert into comp_master values (404,'Venkatesh and Sons','8641470592','10/10/1990','Adhalgaon  Industry Zone','Adhalgaon ','Pune','Maharashtra','India',413701);
+insert into comp_master values (505,'Venkatramanan and Brothers ','8641503557','4/2/1990','Antop Hill  SEZ','Antop Hill ','Mumbai','Maharashtra','India',400037);
+insert into comp_master values (606,'Venuprasad Construction ','8641536126','9/9/1989','Anna Road  STP','Anna Road ','Chennai','Tamil Nadu','India',600002);
+insert into comp_master values (707,'Vikas Plumbers','8641568298','3/2/1989','Agraharasamakulam  Industrial Area','Agraharasamakulam ','Coimbatore','Tamil Nadu','India',641110);
+insert into comp_master values (808,'Vimal Painters','8641600074','8/8/1988','Achalapur  Industry Zone','Achalapur ','Hyderabad','Telangana','India',504273);
+insert into comp_master values (909,'Vipul Contractors','8641631087','1/30/1988','Alipore  SEZ','Alipore ','Kolkata','West Bengal','India',700027);
+insert into comp_master values (1010,'Vivek Company','8641661706','7/7/1987','Akhera  STP','Akhera ','Gurgaon','Haryana','India',122107);
+insert into comp_master values (1111,'Vladimir V Associates','8641691927','12/30/1986','Amruthahalli  Industrial Area','Amruthahalli ','Bangalore','Karnataka','India',560092);
+insert into comp_master values (1212,'Wendy L Enterprises','8641725083','6/6/1986','Arookutty  Industry Zone','Arookutty ','Kochi','Kerala','India',688535);
+insert into comp_master values (1313,'Xhavit Limited ','8641757843','5/5/1985','Ac.Depot  SEZ','Ac.Depot ','Pune','Maharashtra','India',414001);
+insert into comp_master values (1414,'Yashwanth and Sons','8641790206','11/27/1984','B.P.Lane  STP','B.P.Lane ','Mumbai','Maharashtra','India',400003);
+insert into comp_master values (1515,'Yuvaraj and Brothers ','8641822171','4/4/1984','Agaram  Industrial Area','Agaram ','Chennai','Tamil Nadu','India',632506);
+insert into comp_master values (1616,'Zaishan Construction ','8641853740','10/30/1983','Alandurai  Industry Zone','Alandurai ','Coimbatore','Tamil Nadu','India',641101);
+insert into comp_master values (1717,'Vadodaria Plumbers','8641884912','9/27/1982','Ada  SEZ','Ada ','Hyderabad','Telangana','India',504293);
+insert into comp_master values (1818,'Weng Painters','8641915688','3/3/1982','Barabazar  STP','Barabazar ','Kolkata','West Bengal','India',700007);
+insert into comp_master values (1919,'Vedam Contractors','8641945701','2/2/1981','Baded  Industrial Area','Baded ','Gurgaon','Haryana','India',122508);
+insert into comp_master values (2020,'Warnemunde Company','8641975320','1/1/1980','Anandnagar  (Bangalore) Industry Zone','Anandnagar  (Bangalore)','Bangalore','Karnataka','India',560024);

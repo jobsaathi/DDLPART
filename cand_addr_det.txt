@@ -1,0 +1,31 @@
+create table cand_addr_det
+(cand_mast_id integer,
+cand_addr_line1 varchar2(50),
+cand_addr_line2 varchar2(50),
+cand_addr_line3 varchar2(50),
+cand_city_nam varchar2(50),
+cand_dist_nam varchar2(50),
+cand_stat_nam varchar2(50),
+cand_ctry_nam varchar2(50),
+cand_post_cd decimal (6,0));
+
+insert into cand_addr_det values (1,'Pal Society','Agon','','Gurgaon','','Haryana','India',122104);
+insert into cand_addr_det values (2,'Palit Enclave','Agram','','Bangalore','','Karnataka','India',560007);
+insert into cand_addr_det values (3,'Palla Guest House','Alappuzha Bazar ','','Kochi','','Kerala','India',688012);
+insert into cand_addr_det values (4,'Pani Building','Adhalgaon','','Pune','','Maharashtra','India',413701);
+insert into cand_addr_det values (5,'Patel Lodge','Antop Hill','','Mumbai','','Maharashtra','India',400037);
+insert into cand_addr_det values (6,'Pillai Hotel','Anna Road','','Chennai','','Tamil Nadu','India',600002);
+insert into cand_addr_det values (7,'Patil Flats','Agraharasamakulam','','Coimbatore','','Tamil Nadu','India',641110);
+insert into cand_addr_det values (8,'Pawar Property','Achalapur','','Hyderabad','','Telangana','India',504273);
+insert into cand_addr_det values (9,'Peel Homes','Alipore','','Kolkata','','West Bengal','India',700027);
+insert into cand_addr_det values (10,'Petta motel','Akhera','','Gurgaon','','Haryana','India',122107);
+insert into cand_addr_det values (11,'Pothula Society','Amruthahalli','','Bangalore','','Karnataka','India',560092);
+insert into cand_addr_det values (12,'Prabakaran Enclave','Arookutty','','Kochi','','Kerala','India',688535);
+insert into cand_addr_det values (13,'Neeraja Guest House','Ac.Depot','','Pune','','Maharashtra','India',414001);
+insert into cand_addr_det values (14,'Nicholas Building','B.P.Lane','','Mumbai','','Maharashtra','India',400003);
+insert into cand_addr_det values (15,'Nickolay Lodge','Agaram','','Chennai','','Tamil Nadu','India',632506);
+insert into cand_addr_det values (16,'Nicole Hotel','Alandurai','','Coimbatore','','Tamil Nadu','India',641101);
+insert into cand_addr_det values (17,'Niresh Flats','Ada','','Hyderabad','','Telangana','India',504293);
+insert into cand_addr_det values (18,'Nirmal Property','Barabazar','','Kolkata','','West Bengal','India',700007);
+insert into cand_addr_det values (19,'Nrupesh Homes','Baded','','Gurgaon','','Haryana','India',122508);
+insert into cand_addr_det values (20,'Panchala motel','Anandnagar (Bangalore)','','Bangalore','','Karnataka','India',560024);

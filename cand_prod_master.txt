@@ -1,0 +1,31 @@
+create table cand_prof_master
+(cand_mast_id integer ,
+cand_first_nam varchar2(50),
+cand_midd_nam varchar2(50),
+cand_last_nam varchar2(50),
+cand_birth_dt date,
+cand_prm_mob_num decimal(15,0),
+cand_prm_email_id varchar2(50),
+cand_alt_mob_num decimal(15,0),
+cand_alt_email_id varchar2(50));
+
+insert into cand_prof_master values (1,'Abhishek','RAHUL','Kataria','1/1/1980',9876543210,'Abhishek.Kataria@gmail.com',8641975320,'RAHUL.29221@gmail.com');
+insert into cand_prof_master values (2,'Akash','Raj Kumar','Kashid','2/2/1981',9876513591,'Akash.Kashid@gmail.com',8641945701,'Raj Kumar.29619@gmail.com');
+insert into cand_prof_master values (3,'Akiko','Rajagopal','Habib','3/3/1982',9876483578,'Akiko.Habib@gmail.com',8641915688,'Rajagopal.30013@gmail.com');
+insert into cand_prof_master values (4,'Akshay','Rajarshi','Haramis','4/4/1984',9876452802,'Akshay.Haramis@gmail.com',8641884912,'Rajarshi.30776@gmail.com');
+insert into cand_prof_master values (5,'Alan D','Sameer','Harrison','5/5/1985',9876421630,'Alan D.Harrison@gmail.com',8641853740,'Sameer.31172@gmail.com');
+insert into cand_prof_master values (6,'Aludaiyaarasu','Sanchit','Hiensch','6/6/1986',9876390061,'Aludaiyaarasu.Hiensch@gmail.com',8641822171,'Sanchit.31569@gmail.com');
+insert into cand_prof_master values (7,'Amartya','Ramesh','Hoxhaj','7/7/1987',9876358096,'Amartya.Hoxhaj@gmail.com',8641790206,'Ramesh.31965@gmail.com');
+insert into cand_prof_master values (8,'Ammajamma','Ramona','Ippolito','8/8/1988',9876325733,'Ammajamma.Ippolito@gmail.com',8641757843,'Ramona.32363@gmail.com');
+insert into cand_prof_master values (9,'Andrew','Safi','Jadhav','9/9/1989',9876292973,'Andrew.Jadhav@gmail.com',8641725083,'Safi.32760@gmail.com');
+insert into cand_prof_master values (10,'Anirban','Rishabh','Jain','10/10/1990',9876259817,'Anirban.Jain@gmail.com',8641691927,'Rishabh.33156@gmail.com');
+insert into cand_prof_master values (11,'Ankur','Rishu','Karle','9/27/1982',9876229596,'Ankur.Karle@gmail.com',8641661706,'Rishu.30221@gmail.com');
+insert into cand_prof_master values (12,'Anushka','Rohit','Jenkins','10/30/1983',9876198977,'Anushka.Jenkins@gmail.com',8641631087,'Rohit.30619@gmail.com');
+insert into cand_prof_master values (13,'Anuvab','Rosanth','Jha','11/27/1984',9876167964,'Anuvab.Jha@gmail.com',8641600074,'Rosanth.31013@gmail.com');
+insert into cand_prof_master values (14,'Apurv','Soumitri','Jhalla','12/30/1986',9876136188,'Apurv.Jhalla@gmail.com',8641568298,'Soumitri.31776@gmail.com');
+insert into cand_prof_master values (15,'Aravind','Sourav','Khandelwal','1/30/1988',9876104016,'Aravind.Khandelwal@gmail.com',8641536126,'Sourav.32172@gmail.com');
+insert into cand_prof_master values (16,'Bhagyalakshmi','Siddharth','Jose','3/2/1989',9876071447,'Bhagyalakshmi.Jose@gmail.com',8641503557,'Siddharth.32569@gmail.com');
+insert into cand_prof_master values (17,'Babu','Srikant','Khan','4/2/1990',9876038482,'Babu.Khan@gmail.com',8641470592,'Srikant.32965@gmail.com');
+insert into cand_prof_master values (18,'Balaji','Sonali','Kannan','5/5/1991',9876005119,'Balaji.Kannan@gmail.com',8641437229,'Sonali.33363@gmail.com');
+insert into cand_prof_master values (19,'Balasubramanian','Subhransu','Kar','6/5/1992',9875971359,'Balasubramanian.Kar@gmail.com',8641403469,'Subhransu.33760@gmail.com');
+insert into cand_prof_master values (20,'Baskar','Suchibrata','Karan','7/6/1993',9875937203,'Baskar.Karan@gmail.com',8641369313,'Suchibrata.34156@gmail.com');

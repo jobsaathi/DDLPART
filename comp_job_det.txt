@@ -1,0 +1,30 @@
+create table comp_job_det
+(comp_master_id integer,
+comp_job_id varchar(50),
+comp_job_desc varchar(500),
+comp_job_edu_qual varchar(100),
+comp_job_exp_mths decimal(5,0),
+comp_job_cont_name varchar(50),
+com_job_cont_email varchar(50),
+comp_job_cont_mobile varchar(50));
+
+insert into comp_job_det values (101,'236','','Technical Diploma',60,'Pillai','Pillai@gmail.com','7406801423');
+insert into comp_job_det values (202,'337','','Technical Diploma',62,'Poduri','Poduri@gmail.com','7406835579');
+insert into comp_job_det values (303,'438','','Technical Diploma',59,'Pothula','Pothula@gmail.com','7406869339');
+insert into comp_job_det values (404,'539','','Technical Diploma',63,'Prabakaran','Prabakaran@gmail.com','7406902702');
+insert into comp_job_det values (505,'640','','Technical Diploma',58,'Rajagopal','Rajagopal@gmail.com','7406935667');
+insert into comp_job_det values (606,'741','','Technical Diploma',64,'Rajaretnam','Rajaretnam@gmail.com','7406968236');
+insert into comp_job_det values (707,'842','','Technical Diploma',57,'Rajmohan','Rajmohan@gmail.com','7407000408');
+insert into comp_job_det values (808,'943','','Technical Diploma',65,'Raju','Raju@gmail.com','7407032184');
+insert into comp_job_det values (909,'1044','','Technical Diploma',56,'Raman','Raman@gmail.com','7407063197');
+insert into comp_job_det values (1010,'1145','','Technical Diploma',66,'Ramanathapuram','Ramanathapuram@gmail.com','7407093816');
+insert into comp_job_det values (1111,'1246','','Technical Diploma',55,'RANJAN','RANJAN@gmail.com','7407124037');
+insert into comp_job_det values (1212,'1347','','Technical Diploma',67,'Rao','Rao@gmail.com','7407157193');
+insert into comp_job_det values (1313,'1448','','Technical Diploma',54,'Rauch','Rauch@gmail.com','7407189953');
+insert into comp_job_det values (1414,'1549','','Technical Diploma',68,'Redkar','Redkar@gmail.com','7407222316');
+insert into comp_job_det values (1515,'1650','','Technical Diploma',53,'Rege','Rege@gmail.com','7407254281');
+insert into comp_job_det values (1616,'1751','','Technical Diploma',69,'Rengaraju','Rengaraju@gmail.com','7407285850');
+insert into comp_job_det values (1717,'1852','','Technical Diploma',52,'Rotsztajn','Rotsztajn@gmail.com','7407317022');
+insert into comp_job_det values (1818,'1953','','Technical Diploma',70,'SANCHETI','SANCHETI@gmail.com','7407347798');
+insert into comp_job_det values (1919,'2054','','Technical Diploma',51,'Sarraju','Sarraju@gmail.com','7407377811');
+insert into comp_job_det values (2020,'2155','','Technical Diploma',71,'Sasikumar','Sasikumar@gmail.com','7407407430');
